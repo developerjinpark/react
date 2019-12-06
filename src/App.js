@@ -1,10 +1,12 @@
-import React, { Component } from 'react';
-import MyComponent from './MyComponent';
+import React, { Component, Fragment } from 'react';
+import IterationSample from './IterationSample';
 
 class App extends Component {
   render() {
     return (
-      <MyComponent />
+      <Fragment>
+        <IterationSample />
+      </Fragment>
     );
   }
 }
